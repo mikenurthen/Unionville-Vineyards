@@ -5,11 +5,11 @@
 
 ---
 ## About Unionville Vineyards 
-Unionville Vineyards is a premier boutique estate winery nestled in the pastoral hills of Hunterdon County, New Jersey. Spanning over 80–90 acres of preserved farmland, Unionville manages multiple estate vineyards—Home, Amwell Ridge, Pheasant Hill, and more—each chosen to express the unique terroir of central and northern NJ.
+Unionville Vineyards is a premier boutique estate winery nestled in the pastoral hills of Hunterdon County, New Jersey. Spanning over 80–90 acres of preserved farmland, Unionville manages multiple estate vineyards — Home, Amwell Ridge, Pheasant Hill, and more — each chosen to express the unique terroir of central and northern NJ.
 
 The team practices minimal‑intervention viticulture and winemaking, emphasizing sustainable farming and letting the vineyard speak for itself. Their winemaking honors an old‑world tradition, avoiding over‑oaking to preserve the wine’s natural acidity, fruit expression, and transparency.
 
-Unionville is widely considered the best winery in New Jersey, consistently producing fruit‑forward, aromatic wines—especially their acclaimed single‑vineyard Chardonnays from Pheasant Hill and Home. Their commitment to terroir-driven wines set a gold standard in NJ winemaking/
+Unionville is widely considered the best winery in New Jersey, consistently producing fruit‑forward, aromatic wines. Their commitment to terroir-driven wines set a gold standard in NJ winemaking.
 
 ---
 
