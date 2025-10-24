@@ -19,9 +19,20 @@ Retained by Unionville to design and deliver sales reports for 3 specific sales 
 
 Objective: How many glasses of wine, wine flights, and wine tastings were sold YTD across two locations, Ferry Market Wine Bar (New Hope, PA) and Unionville Tasting Room (Ringoes, NJ) in comparison to the same date range in 2024, 2023, 2022, and 2021?
 
-Solution: Create a custom ETL script to merge, clean, and structure historical sales data from Shopify and POS systems.
-
-  - The process began by extracting the full sales history from Unionville's e-commerce platform of choice, Shopify. All winery sales, ranging from online wine purchases to on-premise sales of cheese boards, sandwiches, and wine bottles purchased through their POS system ultimately transact through Shopify.
-  - Loaded sales history across multiple CSV files and concatenated into a single dataset (DataFrame) to begin the data wrangling process using Pandas, an open-source data analysis and manipulation library built on top of NumPy.
-  - Data wrangling techniques included filtering, grouping, and use of .ffill() and .bfill() methods across various columns within the sales orders. For example, various sales orders' columnar data, including `Location`, `Tax 1 Name`, and `Paid At` were intermittently missing or otherwise did not export.
+Solution: Create an automated ETL script to merge, clean, and structure historical sales data.
+  - The process began by extracting all historic sales data from Unionville's e-commerce platform Shopify. Both on-premise retail POS sales and online DTC sales transact through Shopify.
   - Time series analysis requiring parsing separate datetime string formats and transforming into a single consistent datetime format for proper filtering, grouping, and joining.
+
+
+### Recent Improvements
+
+<b>Refactored for Modularity and Automation</b>
+<b>Modularized Codebase:</b> Wrapped major processing steps (data cleaning, parsing, and visualization) into well-defined functions for better readability, testing, and reusability.
+
+<b>Automated File Watcher:</b> Implemented a continuous monitoring loop that automatically detects, loads, and integrates new CSV files into the master dataset without manual intervention.
+
+<b>Batch Processing Logic:</b> The watcher now processes all newly detected files together before triggering downstream analysis and visualizations, ensuring consistency and performance.
+
+<b>Improved Error Handling:</b> Added validation for column types and data integrity checks to catch and report problematic rows in real time.
+
+<b>Scalable Data Pipeline:</b> Designed the workflow to handle incremental data ingestion, enabling scalable ETL-style data updates and analytics.
